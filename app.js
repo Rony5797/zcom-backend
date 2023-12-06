@@ -35,7 +35,7 @@ app.use(
 );
 
 // Mongo DB Database Connection
-// let URI = ""
+// let URI = process.env.DB_URI
 // let OPTION = { user: 'testuser7777', pass: 'testuser7777', autoIndex: true }
 
 mongoose
